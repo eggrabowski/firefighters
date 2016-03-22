@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "SplashViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+
+@property (strong, nonatomic) SplashViewController *splashViewController;
 
 @property (strong, nonatomic) UINavigationController *navigation;
 

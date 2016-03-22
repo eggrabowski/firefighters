@@ -7,6 +7,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainMenuViewController">
             <connections>
+                <outlet property="comunicadosOficialesButton" destination="tXF-U4-GfO" id="4GB-X7-Kar"/>
+                <outlet property="comunicadosSindicatoButton" destination="83I-cX-djD" id="bqE-Cr-LH7"/>
+                <outlet property="consultaButton" destination="mMR-hb-j6C" id="bYf-of-9C0"/>
+                <outlet property="documentosConsultaButton" destination="FJF-Jb-fcF" id="43P-Rr-vmt"/>
+                <outlet property="documentosIntervencionButton" destination="tQZ-UP-s92" id="pxZ-YT-wqJ"/>
+                <outlet property="encuestaButton" destination="E6g-I9-jqH" id="xON-kf-W3N"/>
+                <outlet property="guardiasButton" destination="uWn-n5-tA1" id="xvH-33-w9h"/>
+                <outlet property="noticiasButton" destination="W4J-sb-AEt" id="Pbm-Be-1rp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,8 +22,86 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_intro.png" translatesAutoresizingMaskIntoConstraints="NO" id="PTw-jY-iiS">
+                    <rect key="frame" x="87" y="44" width="147" height="95"/>
+                </imageView>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1J-U0-f5g">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="tintColor" red="0.33333333333333331" green="0.50588235294117645" blue="0.792156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.33333333333333331" green="0.50588235294117645" blue="0.792156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="SINDICATO DE BOMBEROS" id="YhZ-0J-zTS"/>
+                    </items>
+                </navigationBar>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4J-sb-AEt">
+                    <rect key="frame" x="34" y="157" width="252" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="NOTICIAS DE ULTIMA HORA" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickNoticias:" destination="-1" eventType="touchUpInside" id="pZd-ah-zqA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWn-n5-tA1">
+                    <rect key="frame" x="34" y="204" width="252" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="GUARDIAS FORESTALES" backgroundImage="btn_green_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickGuardiasForestales:" destination="-1" eventType="touchUpInside" id="Q5p-E2-lli"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83I-cX-djD">
+                    <rect key="frame" x="34" y="251" width="120" height="52"/>
+                    <state key="normal" title="Comunicados sindicato" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXF-U4-GfO">
+                    <rect key="frame" x="166" y="251" width="120" height="52"/>
+                    <state key="normal" title="Comunicados oficiales" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJF-Jb-fcF">
+                    <rect key="frame" x="34" y="311" width="120" height="52"/>
+                    <state key="normal" title="Documentos de consulta" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQZ-UP-s92">
+                    <rect key="frame" x="166" y="311" width="120" height="52"/>
+                    <state key="normal" title="Documentos de intervención" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-I9-jqH">
+                    <rect key="frame" x="34" y="371" width="120" height="52"/>
+                    <state key="normal" title="Encuesta" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMR-hb-j6C">
+                    <rect key="frame" x="166" y="371" width="120" height="52"/>
+                    <state key="normal" title="Consulta" backgroundImage="btn_blue_big_on.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
+    <resources>
+        <image name="btn_blue_big_on.png" width="972" height="150"/>
+        <image name="btn_green_on.png" width="972" height="150"/>
+        <image name="logo_intro.png" width="546" height="411"/>
+    </resources>
 </document>

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "SplashViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,12 +26,17 @@
     //Comprobar si ya se ha logueado
     
     NSString *currentLevelKey = @"nombre";
-    
+    //test
+    //self.splashViewController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+    //self.navigation = [[UINavigationController alloc] initWithRootViewController:self.splashViewController];
+    //test
     if ([preferences objectForKey:currentLevelKey] == nil)
     {
         // Si no se ha logueado sacamos la pantalla de login
+        //descomentar tras test
         self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-        self.window.rootViewController = self.viewController;
+        self.navigation = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+        
     }
     else
     {
@@ -38,19 +44,22 @@
         //const NSInteger currentLevel = [preferences integerForKey:currentLevelKey];
         
         //TODO: sustituir viewController con un objeto de MainMenu
+        //descomentar tras test
+        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
         self.navigation = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-        
-        
-        [self.window makeKeyAndVisible];
-        
-        self.window.rootViewController = self.navigation;
     }
     
-    
-    
+    self.window.rootViewController = self.navigation;
+    [self.navigation setNavigationBarHidden:YES];
     
     [self.window makeKeyAndVisible];
+
     return YES;
+}
+
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

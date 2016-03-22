@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */; };
+		161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */; };
+		161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CCD1C94794000BAE8CF /* Noticia.m */; };
 		1620B8B71C6F02FB0079683F /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620B8B51C6F02FB0079683F /* MainMenuViewController.m */; };
 		1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */; };
 		169A2AE41C6E8E5F00D6D171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A2AE31C6E8E5F00D6D171 /* main.m */; };
@@ -15,13 +18,30 @@
 		169A2AFC1C6EAAC800D6D171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A2AFA1C6EAAC800D6D171 /* ViewController.m */; };
 		169A2AFD1C6EAAC800D6D171 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169A2AFB1C6EAAC800D6D171 /* ViewController.xib */; };
 		169A2AFF1C6EC3E100D6D171 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 169A2AFE1C6EC3E100D6D171 /* Default-568h@2x.png */; };
-		169A2B011C6EC44600D6D171 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 169A2B001C6EC44600D6D171 /* FullSizeRender.jpg */; };
+		16A302ED1C924D120097E06A /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A302EB1C924D120097E06A /* SplashViewController.m */; };
+		16A302EE1C924D120097E06A /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A302EC1C924D120097E06A /* SplashViewController.xib */; };
+		16A302F01C9250B50097E06A /* logo_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302EF1C9250B50097E06A /* logo_intro.png */; };
+		16A302F21C9254610097E06A /* box_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302F11C9254610097E06A /* box_blue.png */; };
+		16A302F41C925BAD0097E06A /* btn_blue_big_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302F31C925BAD0097E06A /* btn_blue_big_on.png */; };
+		16A302F61C925E260097E06A /* btn_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302F51C925E260097E06A /* btn_green_on.png */; };
+		16A302F81C925F350097E06A /* btn_blue_sm_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302F71C925F350097E06A /* btn_blue_sm_on.png */; };
+		16A303001C932D1C0097E06A /* btn_blue_sm_push.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A302FF1C932D1C0097E06A /* btn_blue_sm_push.png */; };
+		16A303041C9336570097E06A /* CambioDeGuardiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A303021C9336570097E06A /* CambioDeGuardiaViewController.m */; };
+		16A303051C9336570097E06A /* CambioDeGuardiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A303031C9336570097E06A /* CambioDeGuardiaViewController.xib */; };
+		16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A303071C935F250097E06A /* CambiarGuardiaViewController.m */; };
+		16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */; };
+		16A3030C1C9360880097E06A /* box_blue_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A3030B1C9360880097E06A /* box_blue_big.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1620B8B41C6F02FB0079683F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		1620B8B51C6F02FB0079683F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		161B3CC81C94768F00BAE8CF /* NoticiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
+		161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
+		161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticiasViewController.xib; sourceTree = "<group>"; };
+		161B3CCD1C94794000BAE8CF /* Noticia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Noticia.m; sourceTree = "<group>"; };
+		161B3CCF1C9479AB00BAE8CF /* Noticia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Noticia.h; sourceTree = "<group>"; };
+		1620B8B41C6F02FB0079683F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
+		1620B8B51C6F02FB0079683F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
+		1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenuViewController.xib; path = ../MainMenuViewController.xib; sourceTree = "<group>"; };
 		169A2ADF1C6E8E5F00D6D171 /* SindicatoBomberosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SindicatoBomberosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169A2AE31C6E8E5F00D6D171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		169A2AE51C6E8E5F00D6D171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,7 +52,23 @@
 		169A2AFA1C6EAAC800D6D171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		169A2AFB1C6EAAC800D6D171 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		169A2AFE1C6EC3E100D6D171 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		169A2B001C6EC44600D6D171 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
+		16A302E91C924ABA0097E06A /* maya_fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = maya_fire.mp4; sourceTree = "<group>"; };
+		16A302EA1C924D120097E06A /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		16A302EB1C924D120097E06A /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		16A302EC1C924D120097E06A /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		16A302EF1C9250B50097E06A /* logo_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_intro.png; sourceTree = "<group>"; };
+		16A302F11C9254610097E06A /* box_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_blue.png; sourceTree = "<group>"; };
+		16A302F31C925BAD0097E06A /* btn_blue_big_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blue_big_on.png; sourceTree = "<group>"; };
+		16A302F51C925E260097E06A /* btn_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_green_on.png; sourceTree = "<group>"; };
+		16A302F71C925F350097E06A /* btn_blue_sm_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blue_sm_on.png; sourceTree = "<group>"; };
+		16A302FF1C932D1C0097E06A /* btn_blue_sm_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blue_sm_push.png; sourceTree = "<group>"; };
+		16A303011C9336570097E06A /* CambioDeGuardiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CambioDeGuardiaViewController.h; sourceTree = "<group>"; };
+		16A303021C9336570097E06A /* CambioDeGuardiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CambioDeGuardiaViewController.m; sourceTree = "<group>"; };
+		16A303031C9336570097E06A /* CambioDeGuardiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CambioDeGuardiaViewController.xib; sourceTree = "<group>"; };
+		16A303061C935F250097E06A /* CambiarGuardiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CambiarGuardiaViewController.h; sourceTree = "<group>"; };
+		16A303071C935F250097E06A /* CambiarGuardiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CambiarGuardiaViewController.m; sourceTree = "<group>"; };
+		16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CambiarGuardiaViewController.xib; sourceTree = "<group>"; };
+		16A3030B1C9360880097E06A /* box_blue_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_blue_big.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +85,6 @@
 		169A2AD61C6E8E5E00D6D171 = {
 			isa = PBXGroup;
 			children = (
-				1620B8B41C6F02FB0079683F /* MainMenuViewController.h */,
-				1620B8B51C6F02FB0079683F /* MainMenuViewController.m */,
-				1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */,
 				169A2AFE1C6EC3E100D6D171 /* Default-568h@2x.png */,
 				169A2AE11C6E8E5F00D6D171 /* SindicatoBomberosMadrid */,
 				169A2AE01C6E8E5F00D6D171 /* Products */,
@@ -74,10 +107,35 @@
 				169A2AEE1C6E8E5F00D6D171 /* Assets.xcassets */,
 				169A2AF31C6E8E5F00D6D171 /* Info.plist */,
 				169A2AE21C6E8E5F00D6D171 /* Supporting Files */,
+				16A302EA1C924D120097E06A /* SplashViewController.h */,
+				16A302EB1C924D120097E06A /* SplashViewController.m */,
+				16A302EC1C924D120097E06A /* SplashViewController.xib */,
 				169A2AF91C6EAAC800D6D171 /* ViewController.h */,
 				169A2AFA1C6EAAC800D6D171 /* ViewController.m */,
 				169A2AFB1C6EAAC800D6D171 /* ViewController.xib */,
-				169A2B001C6EC44600D6D171 /* FullSizeRender.jpg */,
+				1620B8B41C6F02FB0079683F /* MainMenuViewController.h */,
+				1620B8B51C6F02FB0079683F /* MainMenuViewController.m */,
+				1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */,
+				16A303011C9336570097E06A /* CambioDeGuardiaViewController.h */,
+				16A303021C9336570097E06A /* CambioDeGuardiaViewController.m */,
+				16A303031C9336570097E06A /* CambioDeGuardiaViewController.xib */,
+				169A2AE31C6E8E5F00D6D171 /* main.m */,
+				16A303061C935F250097E06A /* CambiarGuardiaViewController.h */,
+				16A303071C935F250097E06A /* CambiarGuardiaViewController.m */,
+				16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */,
+				161B3CC81C94768F00BAE8CF /* NoticiasViewController.h */,
+				161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */,
+				161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */,
+				161B3CCF1C9479AB00BAE8CF /* Noticia.h */,
+				161B3CCD1C94794000BAE8CF /* Noticia.m */,
+				16A302F11C9254610097E06A /* box_blue.png */,
+				16A302EF1C9250B50097E06A /* logo_intro.png */,
+				16A302E91C924ABA0097E06A /* maya_fire.mp4 */,
+				16A302F31C925BAD0097E06A /* btn_blue_big_on.png */,
+				16A302F51C925E260097E06A /* btn_green_on.png */,
+				16A302FF1C932D1C0097E06A /* btn_blue_sm_push.png */,
+				16A302F71C925F350097E06A /* btn_blue_sm_on.png */,
+				16A3030B1C9360880097E06A /* box_blue_big.png */,
 			);
 			path = SindicatoBomberosMadrid;
 			sourceTree = "<group>";
@@ -85,7 +143,6 @@
 		169A2AE21C6E8E5F00D6D171 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				169A2AE31C6E8E5F00D6D171 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,10 +206,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				169A2AFD1C6EAAC800D6D171 /* ViewController.xib in Resources */,
+				16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */,
+				16A302F61C925E260097E06A /* btn_green_on.png in Resources */,
+				161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */,
+				16A303001C932D1C0097E06A /* btn_blue_sm_push.png in Resources */,
+				16A302EE1C924D120097E06A /* SplashViewController.xib in Resources */,
+				16A302F21C9254610097E06A /* box_blue.png in Resources */,
 				169A2AEF1C6E8E5F00D6D171 /* Assets.xcassets in Resources */,
+				16A303051C9336570097E06A /* CambioDeGuardiaViewController.xib in Resources */,
+				16A302F01C9250B50097E06A /* logo_intro.png in Resources */,
 				169A2AFF1C6EC3E100D6D171 /* Default-568h@2x.png in Resources */,
+				16A3030C1C9360880097E06A /* box_blue_big.png in Resources */,
+				16A302F41C925BAD0097E06A /* btn_blue_big_on.png in Resources */,
 				1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */,
-				169A2B011C6EC44600D6D171 /* FullSizeRender.jpg in Resources */,
+				16A302F81C925F350097E06A /* btn_blue_sm_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,10 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A302ED1C924D120097E06A /* SplashViewController.m in Sources */,
+				16A303041C9336570097E06A /* CambioDeGuardiaViewController.m in Sources */,
 				1620B8B71C6F02FB0079683F /* MainMenuViewController.m in Sources */,
 				169A2AFC1C6EAAC800D6D171 /* ViewController.m in Sources */,
+				161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */,
 				169A2AE71C6E8E5F00D6D171 /* AppDelegate.m in Sources */,
 				169A2AE41C6E8E5F00D6D171 /* main.m in Sources */,
+				161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */,
+				16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

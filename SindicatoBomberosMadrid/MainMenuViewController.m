@@ -7,6 +7,8 @@
 //
 
 #import "MainMenuViewController.h"
+#import "CambioDeGuardiaViewController.h"
+#import "NoticiasViewController.h"
 
 @interface MainMenuViewController ()
 
@@ -14,9 +16,40 @@
 
 @implementation MainMenuViewController
 
+@synthesize navBar,
+            noticiasButton,
+            guardiasButton,
+            comunicadosSindicatoButton, comunicadosOficialesButton,
+            documentosConsultaButton,documentosIntervencionButton,
+            encuestaButton,consultaButton;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    
+    
+    comunicadosSindicatoButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    comunicadosSindicatoButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [comunicadosSindicatoButton  setTitle:@"Comunicados\nsindicato" forState:UIControlStateNormal];
+    [comunicadosSindicatoButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    
+    comunicadosOficialesButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    comunicadosOficialesButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [comunicadosOficialesButton  setTitle:@"Comunicados\noficiales" forState:UIControlStateNormal];
+    [comunicadosOficialesButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    
+    documentosConsultaButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    documentosConsultaButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [documentosConsultaButton  setTitle:@"Documentos de\nconsulta" forState:UIControlStateNormal];
+    [documentosConsultaButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    
+    documentosIntervencionButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    documentosIntervencionButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [documentosIntervencionButton  setTitle:@"Documentos de\nintervención" forState:UIControlStateNormal];
+    [documentosIntervencionButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    [encuestaButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    [consultaButton setBackgroundImage:[UIImage imageNamed:@"btn_blue_sm_push.png"] forState:UIControlStateHighlighted];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +57,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)onclickGuardiasForestales:(id)sender {
+     CambioDeGuardiaViewController *menuGuardias= [[CambioDeGuardiaViewController alloc] initWithNibName:@"CambioDeGuardiaViewController" bundle:nil];
+    [self.navigationController pushViewController:menuGuardias animated:YES];
 }
-*/
+
+- (IBAction)onclickNoticias:(id)sender {
+    NoticiasViewController *listaNoticias= [[NoticiasViewController alloc] initWithNibName:@"NoticiasViewController" bundle:nil];
+    [self.navigationController pushViewController:listaNoticias animated:YES];
+}
 
 @end

@@ -10,4 +10,19 @@
 
 @interface MainMenuViewController : UIViewController
 
+//@property (nonatomic, retain) IBOutlet UIButton *buttonEnviar;
+
+@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
+@property (nonatomic, retain) IBOutlet UIButton *noticiasButton;
+@property (nonatomic, retain) IBOutlet UIButton *guardiasButton;
+@property (nonatomic, retain) IBOutlet UIButton *comunicadosSindicatoButton;
+@property (nonatomic, retain) IBOutlet UIButton *comunicadosOficialesButton;
+@property (nonatomic, retain) IBOutlet UIButton *documentosConsultaButton;
+@property (nonatomic, retain) IBOutlet UIButton *documentosIntervencionButton;
+@property (nonatomic, retain) IBOutlet UIButton *encuestaButton;
+@property (nonatomic, retain) IBOutlet UIButton *consultaButton;
+
+- (IBAction)onclickGuardiasForestales:(id)sender;
+- (IBAction)onclickNoticias:(id)sender;
+
 @end
