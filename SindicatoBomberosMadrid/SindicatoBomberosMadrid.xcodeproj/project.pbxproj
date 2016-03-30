@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */; };
+		161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */; };
 		161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */; };
 		161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */; };
 		161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CCD1C94794000BAE8CF /* Noticia.m */; };
 		1620B8B71C6F02FB0079683F /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620B8B51C6F02FB0079683F /* MainMenuViewController.m */; };
 		1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */; };
+		16224B441CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16224B421CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m */; };
+		16224B451CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16224B431CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib */; };
+		16224B471CA7BF6000EA8852 /* Guardia.m in Sources */ = {isa = PBXBuildFile; fileRef = 16224B461CA7BF6000EA8852 /* Guardia.m */; };
+		16224B511CA7DBB900EA8852 /* GuardiaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16224B4F1CA7DBB900EA8852 /* GuardiaTableViewCell.m */; };
+		16224B521CA7DBB900EA8852 /* GuardiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16224B501CA7DBB900EA8852 /* GuardiaTableViewCell.xib */; };
 		169A2AE41C6E8E5F00D6D171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A2AE31C6E8E5F00D6D171 /* main.m */; };
 		169A2AE71C6E8E5F00D6D171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A2AE61C6E8E5F00D6D171 /* AppDelegate.m */; };
 		169A2AEF1C6E8E5F00D6D171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169A2AEE1C6E8E5F00D6D171 /* Assets.xcassets */; };
@@ -34,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161311CD1CAB539D00B0E45E /* DatosContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatosContactoViewController.h; sourceTree = "<group>"; };
+		161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatosContactoViewController.m; sourceTree = "<group>"; };
+		161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatosContactoViewController.xib; sourceTree = "<group>"; };
 		161B3CC81C94768F00BAE8CF /* NoticiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
 		161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
 		161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticiasViewController.xib; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 		1620B8B41C6F02FB0079683F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
 		1620B8B51C6F02FB0079683F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
 		1620B8B61C6F02FB0079683F /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenuViewController.xib; path = ../MainMenuViewController.xib; sourceTree = "<group>"; };
+		16224B411CA7BB0500EA8852 /* ListadoDeGuardiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoDeGuardiasViewController.h; sourceTree = "<group>"; };
+		16224B421CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoDeGuardiasViewController.m; sourceTree = "<group>"; };
+		16224B431CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListadoDeGuardiasViewController.xib; sourceTree = "<group>"; };
+		16224B461CA7BF6000EA8852 /* Guardia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guardia.m; sourceTree = "<group>"; };
+		16224B481CA7BF7B00EA8852 /* Guardia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guardia.h; sourceTree = "<group>"; };
+		16224B4E1CA7DBB900EA8852 /* GuardiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuardiaTableViewCell.h; sourceTree = "<group>"; };
+		16224B4F1CA7DBB900EA8852 /* GuardiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuardiaTableViewCell.m; sourceTree = "<group>"; };
+		16224B501CA7DBB900EA8852 /* GuardiaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuardiaTableViewCell.xib; sourceTree = "<group>"; };
 		169A2ADF1C6E8E5F00D6D171 /* SindicatoBomberosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SindicatoBomberosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169A2AE31C6E8E5F00D6D171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		169A2AE51C6E8E5F00D6D171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +141,17 @@
 				16A303061C935F250097E06A /* CambiarGuardiaViewController.h */,
 				16A303071C935F250097E06A /* CambiarGuardiaViewController.m */,
 				16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */,
+				16224B481CA7BF7B00EA8852 /* Guardia.h */,
+				16224B461CA7BF6000EA8852 /* Guardia.m */,
+				161311CD1CAB539D00B0E45E /* DatosContactoViewController.h */,
+				161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */,
+				161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */,
+				16224B411CA7BB0500EA8852 /* ListadoDeGuardiasViewController.h */,
+				16224B421CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m */,
+				16224B431CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib */,
+				16224B4E1CA7DBB900EA8852 /* GuardiaTableViewCell.h */,
+				16224B4F1CA7DBB900EA8852 /* GuardiaTableViewCell.m */,
+				16224B501CA7DBB900EA8852 /* GuardiaTableViewCell.xib */,
 				161B3CC81C94768F00BAE8CF /* NoticiasViewController.h */,
 				161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */,
 				161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */,
@@ -217,6 +246,9 @@
 				16A302F01C9250B50097E06A /* logo_intro.png in Resources */,
 				169A2AFF1C6EC3E100D6D171 /* Default-568h@2x.png in Resources */,
 				16A3030C1C9360880097E06A /* box_blue_big.png in Resources */,
+				16224B521CA7DBB900EA8852 /* GuardiaTableViewCell.xib in Resources */,
+				161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */,
+				16224B451CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib in Resources */,
 				16A302F41C925BAD0097E06A /* btn_blue_big_on.png in Resources */,
 				1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */,
 				16A302F81C925F350097E06A /* btn_blue_sm_on.png in Resources */,
@@ -231,12 +263,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A302ED1C924D120097E06A /* SplashViewController.m in Sources */,
+				16224B511CA7DBB900EA8852 /* GuardiaTableViewCell.m in Sources */,
 				16A303041C9336570097E06A /* CambioDeGuardiaViewController.m in Sources */,
 				1620B8B71C6F02FB0079683F /* MainMenuViewController.m in Sources */,
 				169A2AFC1C6EAAC800D6D171 /* ViewController.m in Sources */,
+				16224B441CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m in Sources */,
 				161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */,
 				169A2AE71C6E8E5F00D6D171 /* AppDelegate.m in Sources */,
 				169A2AE41C6E8E5F00D6D171 /* main.m in Sources */,
+				16224B471CA7BF6000EA8852 /* Guardia.m in Sources */,
+				161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */,
 				161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */,
 				16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */,
 			);

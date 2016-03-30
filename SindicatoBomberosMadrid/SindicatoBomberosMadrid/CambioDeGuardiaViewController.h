@@ -14,4 +14,5 @@
 
 -(IBAction)backButtonPressed:(UIBarButtonItem*) backButton;
 -(IBAction)cambiarGuardiaPressed:(UIButton*) cambiarGuardiaButton;
+-(IBAction)listadoSolicitudesPressed:(UIButton*) listadoButton;
 @end

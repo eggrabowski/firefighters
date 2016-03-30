@@ -40,6 +40,12 @@ NSArray *arrayNoticias;
     Noticia *n3 = [[Noticia alloc] initWithDate:fecha3 andMessage:message3];
     
     arrayNoticias = @[n1,n2,n3];
+    
+    //Set row autodimension
+    self.lista.estimatedRowHeight = 50.0;
+    self.lista.rowHeight = UITableViewAutomaticDimension;
+    self.lista.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,9 +68,26 @@ NSArray *arrayNoticias;
 }
 */
 
-- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return [arrayNoticias count];
+}
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10.;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *headerView = [[UIView alloc] init];
+    headerView.backgroundColor = [UIColor clearColor];
+    return headerView;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -73,30 +96,45 @@ NSArray *arrayNoticias;
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
-    NSString *date = [[arrayNoticias objectAtIndex:indexPath.row] getDate];
-    if (indexPath.row==0) date=@"ULTIMA NOTICIA>>";
-    NSString *message = [[arrayNoticias objectAtIndex:indexPath.row] getMessage];
+    NSString *date = [[arrayNoticias objectAtIndex:indexPath.section] getDate];
+    if (indexPath.section==0) date=@"ULTIMA NOTICIA>>";
+    NSString *message = [[arrayNoticias objectAtIndex:indexPath.section] getMessage];
     NSString *cellText = [[NSString alloc] initWithFormat:@"%@ %@",date,message];
     cell.textLabel.text = cellText;
     CGFloat fontSize = 14;
     [cell.textLabel setFont:[UIFont fontWithName:@"Arial" size:fontSize]];
-    if (indexPath.row==0) cell.textLabel.textColor = [UIColor redColor];
+    if (indexPath.section==0) cell.textLabel.textColor = [UIColor redColor];
     else cell.textLabel.textColor = [UIColor blueColor];
     cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping; // Pre-iOS6 use UILineBreakModeWordWrap
     cell.textLabel.textAlignment = NSTextAlignmentCenter;
     
     //Calculate lines per cell
     CGSize constrain = CGSizeMake(cell.bounds.size.width, FLT_MAX);
-    //CGSize size = [cell.textLabel.text sizeWithFont:cell.textLabel.font constrainedToSize:constrain lineBreakMode:NSLineBreakByWordWrapping];
     CGSize size = [cell.textLabel.text sizeWithFont:cell.textLabel.font
-                                       minFontSize:fontSize
-                                       actualFontSize:&fontSize
-                                       forWidth:constrain.width
-                                       lineBreakMode:NSLineBreakByWordWrapping];
+                                                    constrainedToSize:constrain
+                                                    lineBreakMode:NSLineBreakByWordWrapping];
+    
     cell.textLabel.numberOfLines = size.height / cell.textLabel.font.lineHeight;
+    
+    //Set border
+    [cell.contentView.layer setBorderColor:[UIColor colorWithRed:204.0/255.0
+                                                           green:204.0/255.0
+                                                            blue:204.0/255.0
+                                                           alpha:1.0].CGColor];
+    [cell.contentView.layer setBorderWidth: 1.];
+    [cell.contentView.layer setCornerRadius: 10.];
+    [cell.contentView.layer setMasksToBounds: YES];
+    
+    //Set background color
+    [cell.contentView.layer setBackgroundColor:[UIColor colorWithRed:238.0/255.0
+                                                               green:238.0/255.0
+                                                                blue:238.0/255.0
+                                                               alpha:1.0].CGColor];
+    
+    //Disable selection
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    
     return cell;
 }
-
-
 
 @end

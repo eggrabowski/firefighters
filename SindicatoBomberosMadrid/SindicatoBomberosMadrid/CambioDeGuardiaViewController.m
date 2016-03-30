@@ -8,6 +8,7 @@
 
 #import "CambioDeGuardiaViewController.h"
 #import "CambiarGuardiaViewController.h"
+#import "ListadoDeGuardiasViewController.h"
 
 @interface CambioDeGuardiaViewController ()
 
@@ -35,6 +36,11 @@
 -(IBAction)cambiarGuardiaPressed:(UIButton*) cambiarGuardiaButton {
     CambiarGuardiaViewController *cambiarGuardia= [[CambiarGuardiaViewController alloc] initWithNibName:@"CambiarGuardiaViewController" bundle:nil];
     [self.navigationController pushViewController:cambiarGuardia animated:YES];
+}
+
+-(IBAction)listadoSolicitudesPressed:(UIButton*) listadoButton {
+    ListadoDeGuardiasViewController *listadoGuardias = [[ListadoDeGuardiasViewController alloc] initWithNibName:@"ListadoDeGuardiasViewController" bundle:nil];
+    [self.navigationController pushViewController:listadoGuardias animated:YES];
 }
 
 /*

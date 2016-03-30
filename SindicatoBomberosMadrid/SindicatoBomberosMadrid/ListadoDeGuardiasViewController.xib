@@ -5,9 +5,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoticiasViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListadoDeGuardiasViewController">
             <connections>
-                <outlet property="lista" destination="0fh-27-EJu" id="Jex-4z-DRk"/>
+                <outlet property="lista" destination="F9A-vg-Oxp" id="w0D-Dh-I9t"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lyd-WX-06Z">
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cow-Cj-6qY">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <color key="barTintColor" red="0.33333333329999998" green="0.50588235290000005" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                     <textAttributes key="titleTextAttributes">
@@ -24,23 +24,30 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </textAttributes>
                     <items>
-                        <navigationItem title="NOTICIAS DE ULTIMA HORA" id="HI6-ky-hR6">
-                            <barButtonItem key="leftBarButtonItem" title="Atrás" id="a31-Rd-Cg5">
+                        <navigationItem title="LISTADO DE GUARDIAS" id="cgi-CK-qmu">
+                            <barButtonItem key="leftBarButtonItem" title="Atrás" id="qne-sD-v79">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="backButtonPressed:" destination="-1" id="aa6-1p-BLA"/>
+                                    <action selector="backButtonPressed:" destination="-1" id="y09-8k-7Yd"/>
                                 </connections>
                             </barButtonItem>
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0fh-27-EJu">
-                    <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F9A-vg-Oxp">
+                    <rect key="frame" x="21" y="131" width="279" height="309"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estas son las guardias que los compañeros  quieren cambiar. Toca para ver los detalles." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smx-2A-zWT">
+                    <rect key="frame" x="36" y="67" width="249" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.54117647058823526" green="0.53725490196078429" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="637" y="236"/>
         </view>
     </objects>
 </document>
