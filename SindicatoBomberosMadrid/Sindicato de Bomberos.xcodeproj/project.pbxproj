@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */; };
 		161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */; };
+		161311D51CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */; };
+		161311D61CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */; };
+		161311DA1CAB602300B0E45E /* ComunicadosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */; };
+		161311DB1CAB602300B0E45E /* ComunicadosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */; };
+		161311DD1CAB608B00B0E45E /* casco_bombero.png in Resources */ = {isa = PBXBuildFile; fileRef = 161311DC1CAB608B00B0E45E /* casco_bombero.png */; };
+		161311E01CAB665B00B0E45E /* Comunicado.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311DF1CAB665B00B0E45E /* Comunicado.m */; };
+		161311E21CAB71B200B0E45E /* INFORM518.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 161311E11CAB71B200B0E45E /* INFORM518.pdf */; };
 		161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */; };
 		161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */; };
 		161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */ = {isa = PBXBuildFile; fileRef = 161B3CCD1C94794000BAE8CF /* Noticia.m */; };
@@ -38,12 +45,23 @@
 		16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A303071C935F250097E06A /* CambiarGuardiaViewController.m */; };
 		16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */; };
 		16A3030C1C9360880097E06A /* box_blue_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A3030B1C9360880097E06A /* box_blue_big.png */; };
+		16C06B281CAB87590056615B /* maya_fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16C06B271CAB87590056615B /* maya_fire.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		161311CD1CAB539D00B0E45E /* DatosContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatosContactoViewController.h; sourceTree = "<group>"; };
 		161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatosContactoViewController.m; sourceTree = "<group>"; };
 		161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatosContactoViewController.xib; sourceTree = "<group>"; };
+		161311D21CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComunicadosSindicatoViewController.h; sourceTree = "<group>"; };
+		161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicadosSindicatoViewController.m; sourceTree = "<group>"; };
+		161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComunicadosSindicatoViewController.xib; sourceTree = "<group>"; };
+		161311D71CAB602300B0E45E /* ComunicadosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComunicadosTableViewCell.h; path = ../ComunicadosTableViewCell.h; sourceTree = "<group>"; };
+		161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicadosTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ComunicadosTableViewCell.xib; path = ../ComunicadosTableViewCell.xib; sourceTree = "<group>"; };
+		161311DC1CAB608B00B0E45E /* casco_bombero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casco_bombero.png; sourceTree = "<group>"; };
+		161311DE1CAB65E400B0E45E /* Comunicado.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Comunicado.h; path = ../Comunicado.h; sourceTree = "<group>"; };
+		161311DF1CAB665B00B0E45E /* Comunicado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comunicado.m; path = ../Comunicado.m; sourceTree = "<group>"; };
+		161311E11CAB71B200B0E45E /* INFORM518.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = INFORM518.pdf; sourceTree = "<group>"; };
 		161B3CC81C94768F00BAE8CF /* NoticiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
 		161B3CC91C94768F00BAE8CF /* NoticiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
 		161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticiasViewController.xib; sourceTree = "<group>"; };
@@ -60,7 +78,7 @@
 		16224B4E1CA7DBB900EA8852 /* GuardiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuardiaTableViewCell.h; sourceTree = "<group>"; };
 		16224B4F1CA7DBB900EA8852 /* GuardiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuardiaTableViewCell.m; sourceTree = "<group>"; };
 		16224B501CA7DBB900EA8852 /* GuardiaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuardiaTableViewCell.xib; sourceTree = "<group>"; };
-		169A2ADF1C6E8E5F00D6D171 /* SindicatoBomberosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SindicatoBomberosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169A2ADF1C6E8E5F00D6D171 /* Sindicato de Bomberos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sindicato de Bomberos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169A2AE31C6E8E5F00D6D171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		169A2AE51C6E8E5F00D6D171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		169A2AE61C6E8E5F00D6D171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,7 +88,6 @@
 		169A2AFA1C6EAAC800D6D171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		169A2AFB1C6EAAC800D6D171 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		169A2AFE1C6EC3E100D6D171 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		16A302E91C924ABA0097E06A /* maya_fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = maya_fire.mp4; sourceTree = "<group>"; };
 		16A302EA1C924D120097E06A /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		16A302EB1C924D120097E06A /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		16A302EC1C924D120097E06A /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
@@ -87,6 +104,7 @@
 		16A303071C935F250097E06A /* CambiarGuardiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CambiarGuardiaViewController.m; sourceTree = "<group>"; };
 		16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CambiarGuardiaViewController.xib; sourceTree = "<group>"; };
 		16A3030B1C9360880097E06A /* box_blue_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_blue_big.png; sourceTree = "<group>"; };
+		16C06B271CAB87590056615B /* maya_fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = maya_fire.mp4; path = SindicatodeBomberos/maya_fire.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +130,7 @@
 		169A2AE01C6E8E5F00D6D171 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				169A2ADF1C6E8E5F00D6D171 /* SindicatoBomberosMadrid.app */,
+				169A2ADF1C6E8E5F00D6D171 /* Sindicato de Bomberos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,16 +175,27 @@
 				161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */,
 				161B3CCF1C9479AB00BAE8CF /* Noticia.h */,
 				161B3CCD1C94794000BAE8CF /* Noticia.m */,
+				161311D21CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.h */,
+				161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */,
+				161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */,
+				161311D71CAB602300B0E45E /* ComunicadosTableViewCell.h */,
+				161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */,
+				161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */,
+				161311DF1CAB665B00B0E45E /* Comunicado.m */,
+				161311DE1CAB65E400B0E45E /* Comunicado.h */,
 				16A302F11C9254610097E06A /* box_blue.png */,
 				16A302EF1C9250B50097E06A /* logo_intro.png */,
-				16A302E91C924ABA0097E06A /* maya_fire.mp4 */,
 				16A302F31C925BAD0097E06A /* btn_blue_big_on.png */,
 				16A302F51C925E260097E06A /* btn_green_on.png */,
 				16A302FF1C932D1C0097E06A /* btn_blue_sm_push.png */,
 				16A302F71C925F350097E06A /* btn_blue_sm_on.png */,
 				16A3030B1C9360880097E06A /* box_blue_big.png */,
+				161311DC1CAB608B00B0E45E /* casco_bombero.png */,
+				161311E11CAB71B200B0E45E /* INFORM518.pdf */,
+				16C06B271CAB87590056615B /* maya_fire.mp4 */,
 			);
-			path = SindicatoBomberosMadrid;
+			name = SindicatoBomberosMadrid;
+			path = SindicatodeBomberos;
 			sourceTree = "<group>";
 		};
 		169A2AE21C6E8E5F00D6D171 /* Supporting Files */ = {
@@ -179,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		169A2ADE1C6E8E5F00D6D171 /* SindicatoBomberosMadrid */ = {
+		169A2ADE1C6E8E5F00D6D171 /* Sindicato de Bomberos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 169A2AF61C6E8E5F00D6D171 /* Build configuration list for PBXNativeTarget "SindicatoBomberosMadrid" */;
+			buildConfigurationList = 169A2AF61C6E8E5F00D6D171 /* Build configuration list for PBXNativeTarget "Sindicato de Bomberos" */;
 			buildPhases = (
 				169A2ADB1C6E8E5F00D6D171 /* Sources */,
 				169A2ADC1C6E8E5F00D6D171 /* Frameworks */,
@@ -191,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = SindicatoBomberosMadrid;
+			name = "Sindicato de Bomberos";
 			productName = SindicatoBomberosMadrid;
-			productReference = 169A2ADF1C6E8E5F00D6D171 /* SindicatoBomberosMadrid.app */;
+			productReference = 169A2ADF1C6E8E5F00D6D171 /* Sindicato de Bomberos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 169A2ADA1C6E8E5E00D6D171 /* Build configuration list for PBXProject "SindicatoBomberosMadrid" */;
+			buildConfigurationList = 169A2ADA1C6E8E5E00D6D171 /* Build configuration list for PBXProject "Sindicato de Bomberos" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,7 +253,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				169A2ADE1C6E8E5F00D6D171 /* SindicatoBomberosMadrid */,
+				169A2ADE1C6E8E5F00D6D171 /* Sindicato de Bomberos */,
 			);
 		};
 /* End PBXProject section */
@@ -235,23 +264,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				169A2AFD1C6EAAC800D6D171 /* ViewController.xib in Resources */,
+				161311DB1CAB602300B0E45E /* ComunicadosTableViewCell.xib in Resources */,
 				16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */,
 				16A302F61C925E260097E06A /* btn_green_on.png in Resources */,
 				161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */,
 				16A303001C932D1C0097E06A /* btn_blue_sm_push.png in Resources */,
 				16A302EE1C924D120097E06A /* SplashViewController.xib in Resources */,
 				16A302F21C9254610097E06A /* box_blue.png in Resources */,
+				16C06B281CAB87590056615B /* maya_fire.mp4 in Resources */,
 				169A2AEF1C6E8E5F00D6D171 /* Assets.xcassets in Resources */,
 				16A303051C9336570097E06A /* CambioDeGuardiaViewController.xib in Resources */,
+				161311E21CAB71B200B0E45E /* INFORM518.pdf in Resources */,
 				16A302F01C9250B50097E06A /* logo_intro.png in Resources */,
 				169A2AFF1C6EC3E100D6D171 /* Default-568h@2x.png in Resources */,
 				16A3030C1C9360880097E06A /* box_blue_big.png in Resources */,
 				16224B521CA7DBB900EA8852 /* GuardiaTableViewCell.xib in Resources */,
 				161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */,
+				161311D61CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib in Resources */,
 				16224B451CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib in Resources */,
 				16A302F41C925BAD0097E06A /* btn_blue_big_on.png in Resources */,
 				1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */,
 				16A302F81C925F350097E06A /* btn_blue_sm_on.png in Resources */,
+				161311DD1CAB608B00B0E45E /* casco_bombero.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +305,9 @@
 				161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */,
 				169A2AE71C6E8E5F00D6D171 /* AppDelegate.m in Sources */,
 				169A2AE41C6E8E5F00D6D171 /* main.m in Sources */,
+				161311E01CAB665B00B0E45E /* Comunicado.m in Sources */,
+				161311DA1CAB602300B0E45E /* ComunicadosTableViewCell.m in Sources */,
+				161311D51CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m in Sources */,
 				16224B471CA7BF6000EA8852 /* Guardia.m in Sources */,
 				161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */,
 				161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */,
@@ -369,11 +406,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = SindicatoBomberosMadrid/Info.plist;
+				INFOPLIST_FILE = SindicatodeBomberos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eggrabowski.SindicatoBomberosMadrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = eggrabowski.SindicatodeBomberos;
+				PRODUCT_NAME = "Sindicato de Bomberos";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -384,11 +421,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = SindicatoBomberosMadrid/Info.plist;
+				INFOPLIST_FILE = SindicatodeBomberos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eggrabowski.SindicatoBomberosMadrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = eggrabowski.SindicatodeBomberos;
+				PRODUCT_NAME = "Sindicato de Bomberos";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -396,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		169A2ADA1C6E8E5E00D6D171 /* Build configuration list for PBXProject "SindicatoBomberosMadrid" */ = {
+		169A2ADA1C6E8E5E00D6D171 /* Build configuration list for PBXProject "Sindicato de Bomberos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				169A2AF41C6E8E5F00D6D171 /* Debug */,
@@ -405,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		169A2AF61C6E8E5F00D6D171 /* Build configuration list for PBXNativeTarget "SindicatoBomberosMadrid" */ = {
+		169A2AF61C6E8E5F00D6D171 /* Build configuration list for PBXNativeTarget "Sindicato de Bomberos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				169A2AF71C6E8E5F00D6D171 /* Debug */,

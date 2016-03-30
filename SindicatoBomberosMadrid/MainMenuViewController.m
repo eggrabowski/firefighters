@@ -9,6 +9,7 @@
 #import "MainMenuViewController.h"
 #import "CambioDeGuardiaViewController.h"
 #import "NoticiasViewController.h"
+#import "ComunicadosSindicatoViewController.h"
 
 @interface MainMenuViewController ()
 
@@ -65,6 +66,11 @@
 - (IBAction)onclickNoticias:(id)sender {
     NoticiasViewController *listaNoticias= [[NoticiasViewController alloc] initWithNibName:@"NoticiasViewController" bundle:nil];
     [self.navigationController pushViewController:listaNoticias animated:YES];
+}
+
+- (IBAction)onclickComunicadosSindicato:(id)sender {
+    ComunicadosSindicatoViewController *comunicados = [[ComunicadosSindicatoViewController alloc] initWithNibName:@"ComunicadosSindicatoViewController" bundle:nil];
+    [self.navigationController pushViewController:comunicados animated:YES];
 }
 
 @end

@@ -49,7 +49,7 @@ NSArray *arrayGuardias;
     NSString *tipo2 = @"PARQUE";
     
     NSString *fecha3 = @"15 Dic";
-    NSString *destino3 = @"LOZOYELA PARQUE";
+    NSString *destino3 = @"LOZOYUELA PARQUE";
     NSString *horario3 = @"12h";
     NSString *tipo3 = @"PARQUE";
     

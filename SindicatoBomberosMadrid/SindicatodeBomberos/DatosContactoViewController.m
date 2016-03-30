@@ -34,6 +34,8 @@ NSString* telefonoText;
 {
     id returnId = [self init];
     
+    //Set content
+    
     nombreText = [NSString stringWithFormat:@"Nombre: %@", nombre];
     apellidosText = [NSString stringWithFormat:@"Apellidos: %@", apellidos];
     categoriaText = [NSString stringWithFormat:@"Categoría: %@", categoria];
@@ -50,6 +52,34 @@ NSString* telefonoText;
     categoriaLabel.text = categoriaText;
     parqueLabel.text = parqueText;
     telefonoLabel.text = telefonoText;
+    
+    //Set border
+    nombreLabel.layer.borderWidth= 1.0f;
+    nombreLabel.layer.borderColor=[[UIColor colorWithRed:178.0/255.0
+                                                     green:176.0/255.0
+                                                      blue:176.0/255.0
+                                                     alpha:1.0] CGColor];
+    apellidosLabel.layer.borderWidth= 1.0f;
+    apellidosLabel.layer.borderColor=[[UIColor colorWithRed:178.0/255.0
+                                                   green:176.0/255.0
+                                                    blue:176.0/255.0
+                                                   alpha:1.0] CGColor];
+    categoriaLabel.layer.borderWidth= 1.0f;
+    categoriaLabel.layer.borderColor=[[UIColor colorWithRed:178.0/255.0
+                                                   green:176.0/255.0
+                                                    blue:176.0/255.0
+                                                   alpha:1.0] CGColor];
+    parqueLabel.layer.borderWidth= 1.0f;
+    parqueLabel.layer.borderColor=[[UIColor colorWithRed:178.0/255.0
+                                                   green:176.0/255.0
+                                                    blue:176.0/255.0
+                                                   alpha:1.0] CGColor];
+    telefonoLabel.layer.borderWidth= 1.0f;
+    telefonoLabel.layer.borderColor=[[UIColor colorWithRed:178.0/255.0
+                                                   green:176.0/255.0
+                                                    blue:176.0/255.0
+                                                   alpha:1.0] CGColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

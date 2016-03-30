@@ -24,5 +24,6 @@
 
 - (IBAction)onclickGuardiasForestales:(id)sender;
 - (IBAction)onclickNoticias:(id)sender;
+- (IBAction)onclickComunicadosSindicato:(id)sender;
 
 @end

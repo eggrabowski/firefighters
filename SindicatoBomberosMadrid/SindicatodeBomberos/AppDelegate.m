@@ -21,15 +21,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    //test
+    self.splashViewController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+    self.navigation = [[UINavigationController alloc] initWithRootViewController:self.splashViewController];
+    //test
+    /*
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
     
     //Comprobar si ya se ha logueado
     
     NSString *currentLevelKey = @"nombre";
-    //test
-    //self.splashViewController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
-    //self.navigation = [[UINavigationController alloc] initWithRootViewController:self.splashViewController];
-    //test
+    
     if ([preferences objectForKey:currentLevelKey] == nil)
     {
         // Si no se ha logueado sacamos la pantalla de login
@@ -47,7 +49,7 @@
         //descomentar tras test
         self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
         self.navigation = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-    }
+    }*/
     
     self.window.rootViewController = self.navigation;
     [self.navigation setNavigationBarHidden:YES];
