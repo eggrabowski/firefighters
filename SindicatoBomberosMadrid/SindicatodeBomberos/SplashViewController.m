@@ -43,7 +43,7 @@ ViewController *viewController;
 }
 
 - (void) playerDidFinishPlaying: (NSNotification *) note {
-    NSLog (@"Video ended");
+    //NSLog (@"Video ended");
     [self.navigationController pushViewController:viewController animated:NO];
 }
 

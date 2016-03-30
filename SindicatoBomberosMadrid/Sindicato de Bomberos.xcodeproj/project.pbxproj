@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */; };
 		161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */; };
-		161311D51CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */; };
-		161311D61CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */; };
+		161311D51CAB5EFD00B0E45E /* ComunicadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311D31CAB5EFD00B0E45E /* ComunicadosViewController.m */; };
+		161311D61CAB5EFD00B0E45E /* ComunicadosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311D41CAB5EFD00B0E45E /* ComunicadosViewController.xib */; };
 		161311DA1CAB602300B0E45E /* ComunicadosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */; };
 		161311DB1CAB602300B0E45E /* ComunicadosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */; };
 		161311DD1CAB608B00B0E45E /* casco_bombero.png in Resources */ = {isa = PBXBuildFile; fileRef = 161311DC1CAB608B00B0E45E /* casco_bombero.png */; };
@@ -45,6 +45,10 @@
 		16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A303071C935F250097E06A /* CambiarGuardiaViewController.m */; };
 		16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */; };
 		16A3030C1C9360880097E06A /* box_blue_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A3030B1C9360880097E06A /* box_blue_big.png */; };
+		16AD0A171CABB10E0076927D /* DocumentosIntervencionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD0A151CABB10E0076927D /* DocumentosIntervencionViewController.m */; };
+		16AD0A181CABB10E0076927D /* DocumentosIntervencionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AD0A161CABB10E0076927D /* DocumentosIntervencionViewController.xib */; };
+		16AD0A1C1CAC61C80076927D /* MercanciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD0A1A1CAC61C80076927D /* MercanciasViewController.m */; };
+		16AD0A1D1CAC61C80076927D /* MercanciasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AD0A1B1CAC61C80076927D /* MercanciasViewController.xib */; };
 		16C06B281CAB87590056615B /* maya_fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16C06B271CAB87590056615B /* maya_fire.mp4 */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +56,9 @@
 		161311CD1CAB539D00B0E45E /* DatosContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatosContactoViewController.h; sourceTree = "<group>"; };
 		161311CE1CAB539D00B0E45E /* DatosContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatosContactoViewController.m; sourceTree = "<group>"; };
 		161311CF1CAB539D00B0E45E /* DatosContactoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatosContactoViewController.xib; sourceTree = "<group>"; };
-		161311D21CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComunicadosSindicatoViewController.h; sourceTree = "<group>"; };
-		161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicadosSindicatoViewController.m; sourceTree = "<group>"; };
-		161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComunicadosSindicatoViewController.xib; sourceTree = "<group>"; };
+		161311D21CAB5EFD00B0E45E /* ComunicadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComunicadosViewController.h; sourceTree = "<group>"; };
+		161311D31CAB5EFD00B0E45E /* ComunicadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicadosViewController.m; sourceTree = "<group>"; };
+		161311D41CAB5EFD00B0E45E /* ComunicadosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComunicadosViewController.xib; sourceTree = "<group>"; };
 		161311D71CAB602300B0E45E /* ComunicadosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComunicadosTableViewCell.h; path = ../ComunicadosTableViewCell.h; sourceTree = "<group>"; };
 		161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicadosTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ComunicadosTableViewCell.xib; path = ../ComunicadosTableViewCell.xib; sourceTree = "<group>"; };
@@ -104,6 +108,12 @@
 		16A303071C935F250097E06A /* CambiarGuardiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CambiarGuardiaViewController.m; sourceTree = "<group>"; };
 		16A303081C935F250097E06A /* CambiarGuardiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CambiarGuardiaViewController.xib; sourceTree = "<group>"; };
 		16A3030B1C9360880097E06A /* box_blue_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_blue_big.png; sourceTree = "<group>"; };
+		16AD0A141CABB10E0076927D /* DocumentosIntervencionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentosIntervencionViewController.h; sourceTree = "<group>"; };
+		16AD0A151CABB10E0076927D /* DocumentosIntervencionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentosIntervencionViewController.m; sourceTree = "<group>"; };
+		16AD0A161CABB10E0076927D /* DocumentosIntervencionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentosIntervencionViewController.xib; sourceTree = "<group>"; };
+		16AD0A191CAC61C80076927D /* MercanciasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercanciasViewController.h; sourceTree = "<group>"; };
+		16AD0A1A1CAC61C80076927D /* MercanciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercanciasViewController.m; sourceTree = "<group>"; };
+		16AD0A1B1CAC61C80076927D /* MercanciasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MercanciasViewController.xib; sourceTree = "<group>"; };
 		16C06B271CAB87590056615B /* maya_fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = maya_fire.mp4; path = SindicatodeBomberos/maya_fire.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -175,14 +185,20 @@
 				161B3CCA1C94768F00BAE8CF /* NoticiasViewController.xib */,
 				161B3CCF1C9479AB00BAE8CF /* Noticia.h */,
 				161B3CCD1C94794000BAE8CF /* Noticia.m */,
-				161311D21CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.h */,
-				161311D31CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m */,
-				161311D41CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib */,
+				161311D21CAB5EFD00B0E45E /* ComunicadosViewController.h */,
+				161311D31CAB5EFD00B0E45E /* ComunicadosViewController.m */,
+				161311D41CAB5EFD00B0E45E /* ComunicadosViewController.xib */,
 				161311D71CAB602300B0E45E /* ComunicadosTableViewCell.h */,
 				161311D81CAB602300B0E45E /* ComunicadosTableViewCell.m */,
 				161311D91CAB602300B0E45E /* ComunicadosTableViewCell.xib */,
 				161311DF1CAB665B00B0E45E /* Comunicado.m */,
 				161311DE1CAB65E400B0E45E /* Comunicado.h */,
+				16AD0A141CABB10E0076927D /* DocumentosIntervencionViewController.h */,
+				16AD0A151CABB10E0076927D /* DocumentosIntervencionViewController.m */,
+				16AD0A161CABB10E0076927D /* DocumentosIntervencionViewController.xib */,
+				16AD0A191CAC61C80076927D /* MercanciasViewController.h */,
+				16AD0A1A1CAC61C80076927D /* MercanciasViewController.m */,
+				16AD0A1B1CAC61C80076927D /* MercanciasViewController.xib */,
 				16A302F11C9254610097E06A /* box_blue.png */,
 				16A302EF1C9250B50097E06A /* logo_intro.png */,
 				16A302F31C925BAD0097E06A /* btn_blue_big_on.png */,
@@ -268,6 +284,7 @@
 				16A3030A1C935F250097E06A /* CambiarGuardiaViewController.xib in Resources */,
 				16A302F61C925E260097E06A /* btn_green_on.png in Resources */,
 				161B3CCC1C94768F00BAE8CF /* NoticiasViewController.xib in Resources */,
+				16AD0A181CABB10E0076927D /* DocumentosIntervencionViewController.xib in Resources */,
 				16A303001C932D1C0097E06A /* btn_blue_sm_push.png in Resources */,
 				16A302EE1C924D120097E06A /* SplashViewController.xib in Resources */,
 				16A302F21C9254610097E06A /* box_blue.png in Resources */,
@@ -280,8 +297,9 @@
 				16A3030C1C9360880097E06A /* box_blue_big.png in Resources */,
 				16224B521CA7DBB900EA8852 /* GuardiaTableViewCell.xib in Resources */,
 				161311D11CAB539D00B0E45E /* DatosContactoViewController.xib in Resources */,
-				161311D61CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.xib in Resources */,
+				161311D61CAB5EFD00B0E45E /* ComunicadosViewController.xib in Resources */,
 				16224B451CA7BB0500EA8852 /* ListadoDeGuardiasViewController.xib in Resources */,
+				16AD0A1D1CAC61C80076927D /* MercanciasViewController.xib in Resources */,
 				16A302F41C925BAD0097E06A /* btn_blue_big_on.png in Resources */,
 				1620B8B81C6F02FB0079683F /* MainMenuViewController.xib in Resources */,
 				16A302F81C925F350097E06A /* btn_blue_sm_on.png in Resources */,
@@ -300,6 +318,7 @@
 				16224B511CA7DBB900EA8852 /* GuardiaTableViewCell.m in Sources */,
 				16A303041C9336570097E06A /* CambioDeGuardiaViewController.m in Sources */,
 				1620B8B71C6F02FB0079683F /* MainMenuViewController.m in Sources */,
+				16AD0A171CABB10E0076927D /* DocumentosIntervencionViewController.m in Sources */,
 				169A2AFC1C6EAAC800D6D171 /* ViewController.m in Sources */,
 				16224B441CA7BB0500EA8852 /* ListadoDeGuardiasViewController.m in Sources */,
 				161B3CCB1C94768F00BAE8CF /* NoticiasViewController.m in Sources */,
@@ -307,10 +326,11 @@
 				169A2AE41C6E8E5F00D6D171 /* main.m in Sources */,
 				161311E01CAB665B00B0E45E /* Comunicado.m in Sources */,
 				161311DA1CAB602300B0E45E /* ComunicadosTableViewCell.m in Sources */,
-				161311D51CAB5EFD00B0E45E /* ComunicadosSindicatoViewController.m in Sources */,
+				161311D51CAB5EFD00B0E45E /* ComunicadosViewController.m in Sources */,
 				16224B471CA7BF6000EA8852 /* Guardia.m in Sources */,
 				161311D01CAB539D00B0E45E /* DatosContactoViewController.m in Sources */,
 				161B3CCE1C94794000BAE8CF /* Noticia.m in Sources */,
+				16AD0A1C1CAC61C80076927D /* MercanciasViewController.m in Sources */,
 				16A303091C935F250097E06A /* CambiarGuardiaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

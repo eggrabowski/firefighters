@@ -1,15 +1,15 @@
 
-#import "ComunicadosSindicatoViewController.h"
+#import "ComunicadosViewController.h"
 #import "ComunicadosTableViewCell.h"
 #import "Comunicado.h"
 
-@interface ComunicadosSindicatoViewController ()
+@interface ComunicadosViewController ()
 
 @end
 
-@implementation ComunicadosSindicatoViewController
+@implementation ComunicadosViewController
 
-@synthesize lista;
+@synthesize lista, titleBar;
 NSArray *arrayComunicados;
 
 - (void)viewDidLoad {
@@ -40,6 +40,24 @@ NSArray *arrayComunicados;
     
     arrayComunicados = @[c1,c2,c3];
     
+    if (type==0) { //Comunicados sindicato
+        titleBar.topItem.title = @"COMUNICADOS SINDICATO";
+    } else if (type==1) { //Comunicados oficiales
+        titleBar.topItem.title = @"COMUNICADOS OFICIALES";
+    } else if (type==2) {//Documentos de consulta
+        titleBar.topItem.title = @"DOCUMENTOS DE CONSULTA";
+    } else if (type==3) {
+        //TODO: Add rest of types
+    } else {
+        NSLog(@"Invalid type, default View loaded");
+    }
+    
+}
+
+-(id) initWithType: (int) tipo {
+    id myself = [super init];
+    self->type = tipo;
+    return myself;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -83,6 +101,7 @@ NSArray *arrayComunicados;
     NSInteger comNo = indexPath.section;
     
     if (comNo==0) {
+        //TODO: put HOY only if date = today
         cell.descripcionLabel.text = [NSString stringWithFormat:@"HOY>> %@",[[arrayComunicados objectAtIndex:comNo] getDescripcion]];
     } else {
         cell.descripcionLabel.text = [NSString stringWithFormat:@"%@>> %@",[[arrayComunicados objectAtIndex:comNo] getFecha],[[arrayComunicados objectAtIndex:comNo] getDescripcion]];

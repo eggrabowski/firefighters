@@ -5,9 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComunicadosSindicatoViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComunicadosViewController">
             <connections>
-                <outlet property="lista" destination="iS1-hL-2Eb" id="rNz-XX-2gk"/>
+                <outlet property="lista" destination="iS1-hL-2Eb" id="5Sr-tl-yiZ"/>
+                <outlet property="titleBar" destination="dss-9t-coR" id="YdC-Dh-0IW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,7 +29,7 @@
                             <barButtonItem key="leftBarButtonItem" title="Atrás" id="895-o1-XEr">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="backButtonPressed:" destination="-1" id="GVD-0a-HXT"/>
+                                    <action selector="backButtonPressed:" destination="-1" id="QUg-Xk-30b"/>
                                 </connections>
                             </barButtonItem>
                         </navigationItem>

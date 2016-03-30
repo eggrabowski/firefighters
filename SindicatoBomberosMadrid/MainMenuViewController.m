@@ -9,7 +9,8 @@
 #import "MainMenuViewController.h"
 #import "CambioDeGuardiaViewController.h"
 #import "NoticiasViewController.h"
-#import "ComunicadosSindicatoViewController.h"
+#import "ComunicadosViewController.h"
+#import "DocumentosIntervencionViewController.h"
 
 @interface MainMenuViewController ()
 
@@ -17,7 +18,7 @@
 
 @implementation MainMenuViewController
 
-@synthesize navBar,
+@synthesize //navBar,
             noticiasButton,
             guardiasButton,
             comunicadosSindicatoButton, comunicadosOficialesButton,
@@ -69,8 +70,27 @@
 }
 
 - (IBAction)onclickComunicadosSindicato:(id)sender {
-    ComunicadosSindicatoViewController *comunicados = [[ComunicadosSindicatoViewController alloc] initWithNibName:@"ComunicadosSindicatoViewController" bundle:nil];
+    ComunicadosViewController *comunicados = [[ComunicadosViewController alloc] initWithType:0];
     [self.navigationController pushViewController:comunicados animated:YES];
+}
+
+- (IBAction)onclickComunicadosOficiales:(id)sender {
+    ComunicadosViewController *comunicados = [[ComunicadosViewController alloc] initWithType:1];
+    [self.navigationController pushViewController:comunicados animated:YES];
+}
+- (IBAction)onclickDocumentosConsulta:(id)sender {
+    ComunicadosViewController *comunicados = [[ComunicadosViewController alloc] initWithType:2];
+    [self.navigationController pushViewController:comunicados animated:YES];
+}
+- (IBAction)onclickDocumentosIntervencion:(id)sender {
+    DocumentosIntervencionViewController *docIntervencion = [[DocumentosIntervencionViewController alloc] init];
+    [self.navigationController pushViewController:docIntervencion animated:YES];
+}
+- (IBAction)onclickEncuesta:(id)sender {
+    
+}
+- (IBAction)onclickConsulta:(id)sender {
+    
 }
 
 @end

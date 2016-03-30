@@ -12,7 +12,7 @@
 
 //@property (nonatomic, retain) IBOutlet UIButton *buttonEnviar;
 
-@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
+//@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
 @property (nonatomic, retain) IBOutlet UIButton *noticiasButton;
 @property (nonatomic, retain) IBOutlet UIButton *guardiasButton;
 @property (nonatomic, retain) IBOutlet UIButton *comunicadosSindicatoButton;
@@ -25,5 +25,9 @@
 - (IBAction)onclickGuardiasForestales:(id)sender;
 - (IBAction)onclickNoticias:(id)sender;
 - (IBAction)onclickComunicadosSindicato:(id)sender;
-
+- (IBAction)onclickComunicadosOficiales:(id)sender;
+- (IBAction)onclickDocumentosConsulta:(id)sender;
+- (IBAction)onclickDocumentosIntervencion:(id)sender;
+- (IBAction)onclickEncuesta:(id)sender;
+- (IBAction)onclickConsulta:(id)sender;
 @end

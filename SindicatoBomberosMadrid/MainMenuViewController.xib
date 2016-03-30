@@ -72,30 +72,45 @@
                     <state key="normal" title="Comunicados oficiales" backgroundImage="btn_blue_big_on.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onclickComunicadosOficiales:" destination="-1" eventType="touchUpInside" id="gNP-yC-7Hw"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJF-Jb-fcF">
                     <rect key="frame" x="34" y="311" width="120" height="52"/>
                     <state key="normal" title="Documentos de consulta" backgroundImage="btn_blue_big_on.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onclickDocumentosConsulta:" destination="-1" eventType="touchUpInside" id="gTR-8b-VfD"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQZ-UP-s92">
                     <rect key="frame" x="166" y="311" width="120" height="52"/>
                     <state key="normal" title="Documentos de intervención" backgroundImage="btn_blue_big_on.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onclickDocumentosIntervencion:" destination="-1" eventType="touchUpInside" id="bh3-Th-fBz"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-I9-jqH">
                     <rect key="frame" x="34" y="371" width="120" height="52"/>
                     <state key="normal" title="Encuesta" backgroundImage="btn_blue_big_on.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onclickEncuesta:" destination="-1" eventType="touchUpInside" id="jFf-13-Fst"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMR-hb-j6C">
                     <rect key="frame" x="166" y="371" width="120" height="52"/>
                     <state key="normal" title="Consulta" backgroundImage="btn_blue_big_on.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onclickConsulta:" destination="-1" eventType="touchUpInside" id="hdJ-06-gcf"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
